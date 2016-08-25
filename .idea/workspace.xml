@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="881af460-9533-44ab-a0fb-5ac287755282" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fonts/Lato-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fonts/PlayfairDisplay-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/no_images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/si1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/si2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Subcategory/SubcategoryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Jobs/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/Color.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/Country.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/Subcategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Model/Tag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/Size.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/compile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/seeds/countriesTableSeedere.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/admin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/selectpiker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery/imagezoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery/selectpiker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/emails/password.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/shop-login.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/shop-register.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/galery/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/js/jquery/imagezoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/js/jquery/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/application.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/products/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/products/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/products/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/search/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/subcat/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/tag/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+    </list>
+    <ignored path="sexyeuropa.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sexyeuropa" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SearchController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Search/SearchController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+              <folding>
+                <element signature="e#47#75#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/search/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="324" selection-end-column="45" />
+              <folding>
+                <marker date="1472110922532" expanded="true" signature="24677:24691" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response45.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/Model/Subcategory.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Subcategory/SubcaategoryController.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/component.css" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_11_110700_create_tags_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_11_110728_create_tag_category_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/TagcategoryTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Model/Category.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Tag_categoryTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/admin.min.css" />
+        <option value="$PROJECT_DIR$/npm" />
+        <option value="$PROJECT_DIR$/public/assets/bootstrap/js/dropzone.js" />
+        <option value="$PROJECT_DIR$/public/assets/css/dropzone.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/jquery/selectpiker.js" />
+        <option value="$PROJECT_DIR$/public/assets/css/selectpiker.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Galery/GaleryController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_11_120327_create_category_tag_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_18_102651_create_product_tag_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Model/Tag.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Tag/TagController.php" />
+        <option value="$PROJECT_DIR$/resources/views/tag/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" />
+        <option value="$PROJECT_DIR$/resources/views/galery/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Subcategory/SubcategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/tag/Flats, Women _ Shipped Free at Zappos.html" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/subcat/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/application.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/SizesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/SubcategoriesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/TagsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/Category_tagTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Search/SearchController.php" />
+        <option value="$PROJECT_DIR$/resources/views/search/index.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subcat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="galery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Policies" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Middleware" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Subcategory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Search" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shopsite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Galery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laravel_5_shop_site" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="search/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/search&#10;sea&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Search/SearchController.php&#10;productCon&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Product/ProductController.php&#10;Product&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Product.php&#10;subcategor&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Subcategory.php&#10;Product.php&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Product.php&#10;seed/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/database/seeds&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php&#10;CATEGORY&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Category.php&#10;subca&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Subcategory.php&#10;category&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Subcategory/SubcategoryController.php&#10;Su&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Subcategory/SubcategoryController.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/routes.php&#10;product&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Product/ProductController.php&#10;routes.&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/routes.php&#10;subcat/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/subcat&#10;products/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/products&#10;product/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/public/uploads/product&#10;prod&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Product/ProductController.php&#10;galery/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/galery&#10;Tag.&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Tag.php&#10;product.&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Product.php&#10;//routes&#9;null&#9;null&#10;products/cre&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/products/create.blade.php&#10;product.php&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Product.php&#10;p&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Model/Product.php&#10;edit.blade&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/products/edit.blade.php&#10;galery&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/Controllers/Galery/GaleryController.php&#10;config/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/config&#10;w&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/welcome.blade.php&#10;rou&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/routes.php&#10;edi&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/products/edit.blade.php&#10;ROUTES&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/app/Http/routes.php&#10;application&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php&#10;welcome&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/welcome.blade.php&#10;productCo&#9;null&#9;null&#10;applica&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php&#10;welco&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/welcome.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/products/index.blade.php&#10;style&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/public/assets/css/style.css&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/welcome.blade.php&#10;edit.&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/edit.blade.php&#10;appli&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php&#10;seeds/&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/database/seeds&#10;welcome.blade.php&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/welcome.blade.php&#10;47368.jpg&#9;null&#9;null&#10;34022.jpg&#9;null&#9;null&#10;appl&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php&#10;authcon&#9;null&#9;null&#10;applicat&#9;FILE&#9;file://C:/xampp/htdocs/shopsite/resources/views/layouts/application.blade.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\shopsite\resources\views\search" />
+      <recent name="C:\xampp\htdocs\shopsite\resources\views\tag" />
+      <recent name="C:\xampp\htdocs\shopsite\resources\views" />
+      <recent name="C:\xampp\htdocs\shopsite\resources\views\products" />
+      <recent name="C:\xampp\htdocs\shopsite\app\Http\Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\shopsite\resources\views\products" />
+      <recent name="C:\xampp\htdocs\shopsite\public\assets\js" />
+      <recent name="C:\xampp\htdocs\shopsite\app\Http\Controllers\Category" />
+      <recent name="C:\xampp\htdocs\shopsite\public\assets\css" />
+      <recent name="C:\xampp\htdocs\shopsite\public\assets\images" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471599324000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkRYRVFTYmV2NmErdnJacjFhVHgxbkE9PSIsInZhbHVlIjoiRHpyMkZWb0RMWkhZeGxhQzlPK1hQelNWaWlnUTZ3Q1Irb3Q3USs2bTc1NFFWNEtNVUdKSGc4SEJxMWRYTmpTU2grMmlMbitEXC9HWHFXTmNEUjY4Vm1RPT0iLCJtYWMiOiI2ZjY4OWQxZTgxNDI3ZDdkYTQ0YmFhMDc3NDVmMmMxOWZmZDZjOTQxMDU5YjZlMzA4MjQyYjk0NDMwYjZmNWFiIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471599324000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjlHeTNqcnd6eVRjeGRRYVlEY25lMkE9PSIsInZhbHVlIjoiRnhEOHhhOFVUY0s4RTRyU25qUDVtTHp4dStpbHpnK3BsXC9yRHBpRTJibE1sMWI3aW5GYWw0MGJRN3FBWDdhS1dKRWN1SDNWWmVPM2FCeCtzZWRMYkJBPT0iLCJtYWMiOiI1NTRjODlmZWU1ZDRkNGNmZjE4YzQwNTViZjg4ZWUxMDA5ZTZiOGJhYzg1OTA5MTFmNzI5NDFiMDk2MjU1YTRkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471599324000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkRYRVFTYmV2NmErdnJacjFhVHgxbkE9PSIsInZhbHVlIjoiRHpyMkZWb0RMWkhZeGxhQzlPK1hQelNWaWlnUTZ3Q1Irb3Q3USs2bTc1NFFWNEtNVUdKSGc4SEJxMWRYTmpTU2grMmlMbitEXC9HWHFXTmNEUjY4Vm1RPT0iLCJtYWMiOiI2ZjY4OWQxZTgxNDI3ZDdkYTQ0YmFhMDc3NDVmMmMxOWZmZDZjOTQxMDU5YjZlMzA4MjQyYjk0NDMwYjZmNWFiIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471599324000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjlHeTNqcnd6eVRjeGRRYVlEY25lMkE9PSIsInZhbHVlIjoiRnhEOHhhOFVUY0s4RTRyU25qUDVtTHp4dStpbHpnK3BsXC9yRHBpRTJibE1sMWI3aW5GYWw0MGJRN3FBWDdhS1dKRWN1SDNWWmVPM2FCeCtzZWRMYkJBPT0iLCJtYWMiOiI1NTRjODlmZWU1ZDRkNGNmZjE4YzQwNTViZjg4ZWUxMDA5ZTZiOGJhYzg1OTA5MTFmNzI5NDFiMDk2MjU1YTRkIn0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="/item/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471599202000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlB6bCtDNWFmUTJ6dTRrNkY2ZXdhNXc9PSIsInZhbHVlIjoiS0p3Rm03NnNncXNvcVp5SHpZOGZDSmlOKzBXUEdQSGRibyszZHNuUXFZUzFQYkZCUnE0Tk56RjZcL3kwa2w5YWJlSjFLRUI2S0JFNjQwZlIyVVNORHJRPT0iLCJtYWMiOiJkMDNiNzg1ZGQxOTdjYzE1MzIxNjQ2MGU3NTAzNGQ2OTc2ZDk3MTJjY2U2NmZiYjc3YTBhMmQ3MzFjMmE4MzExIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471599202000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImExYjRxMmNNeTl1cndVVXhYMWRIeHc9PSIsInZhbHVlIjoiQ2tFSTQ4NzRKbDM0b1pyUjVtSlBjNlJraEtGeVZQMm9YVzVaRXdTUVRMUkNOR0lDcVNSWEwwZ1dHWHhKQ0IrbVBkN21rWDdLQ3BqUWxKU0VxQXpxcEE9PSIsIm1hYyI6ImJhYjk2NDU1NGE0YWQ2YWY0Mjg1OWMwYmYxOTFiMjFiYzkwZTIwYjhiYzE3MzQ0NjZiNTFiN2JjOWU1ZWU4MmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="/item/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471599202000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IlB6bCtDNWFmUTJ6dTRrNkY2ZXdhNXc9PSIsInZhbHVlIjoiS0p3Rm03NnNncXNvcVp5SHpZOGZDSmlOKzBXUEdQSGRibyszZHNuUXFZUzFQYkZCUnE0Tk56RjZcL3kwa2w5YWJlSjFLRUI2S0JFNjQwZlIyVVNORHJRPT0iLCJtYWMiOiJkMDNiNzg1ZGQxOTdjYzE1MzIxNjQ2MGU3NTAzNGQ2OTc2ZDk3MTJjY2U2NmZiYjc3YTBhMmQ3MzFjMmE4MzExIn0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471599202000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImExYjRxMmNNeTl1cndVVXhYMWRIeHc9PSIsInZhbHVlIjoiQ2tFSTQ4NzRKbDM0b1pyUjVtSlBjNlJraEtGeVZQMm9YVzVaRXdTUVRMUkNOR0lDcVNSWEwwZ1dHWHhKQ0IrbVBkN21rWDdLQ3BqUWxKU0VxQXpxcEE9PSIsIm1hYyI6ImJhYjk2NDU1NGE0YWQ2YWY0Mjg1OWMwYmYxOTFiMjFiYzkwZTIwYjhiYzE3MzQ0NjZiNTFiN2JjOWU1ZWU4MmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.shopsite.dev/item/1" />
+          <option name="urlPath" value="/item/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.shopsite.dev/" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598962000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImNrQTFndWR2blJ6bVJuUXkwWklPbXc9PSIsInZhbHVlIjoicXY5VUhRZHYxNGNjYVpDZXE0WW5YZm9hSTFHUEN6Wm9lcktZa0g1dFM2SU8wMWh2UXQ5MzlabEphOXBjY0Qyd1lPNHZyem00U05wNDhteHU3b2dyT0E9PSIsIm1hYyI6ImY2ZTVmM2U1MTE0OTNhOGQzMjU0ZTgzNGYwZmUwZWNhNWFkNDUxZDI0NmZmZDNjMWNmZDIzMWZkY2ZjNTRjYmUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/59:80" />
+          <option name="urlPath" value="/1/galery/59:80" />
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598962000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImNrQTFndWR2blJ6bVJuUXkwWklPbXc9PSIsInZhbHVlIjoicXY5VUhRZHYxNGNjYVpDZXE0WW5YZm9hSTFHUEN6Wm9lcktZa0g1dFM2SU8wMWh2UXQ5MzlabEphOXBjY0Qyd1lPNHZyem00U05wNDhteHU3b2dyT0E9PSIsIm1hYyI6ImY2ZTVmM2U1MTE0OTNhOGQzMjU0ZTgzNGYwZmUwZWNhNWFkNDUxZDI0NmZmZDNjMWNmZDIzMWZkY2ZjNTRjYmUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/59:80" />
+          <option name="urlPath" value="/1/galery/59:80" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598962000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImNrQTFndWR2blJ6bVJuUXkwWklPbXc9PSIsInZhbHVlIjoicXY5VUhRZHYxNGNjYVpDZXE0WW5YZm9hSTFHUEN6Wm9lcktZa0g1dFM2SU8wMWh2UXQ5MzlabEphOXBjY0Qyd1lPNHZyem00U05wNDhteHU3b2dyT0E9PSIsIm1hYyI6ImY2ZTVmM2U1MTE0OTNhOGQzMjU0ZTgzNGYwZmUwZWNhNWFkNDUxZDI0NmZmZDNjMWNmZDIzMWZkY2ZjNTRjYmUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/65:80" />
+          <option name="urlPath" value="/1/galery/65:80" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598962000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImNrQTFndWR2blJ6bVJuUXkwWklPbXc9PSIsInZhbHVlIjoicXY5VUhRZHYxNGNjYVpDZXE0WW5YZm9hSTFHUEN6Wm9lcktZa0g1dFM2SU8wMWh2UXQ5MzlabEphOXBjY0Qyd1lPNHZyem00U05wNDhteHU3b2dyT0E9PSIsIm1hYyI6ImY2ZTVmM2U1MTE0OTNhOGQzMjU0ZTgzNGYwZmUwZWNhNWFkNDUxZDI0NmZmZDNjMWNmZDIzMWZkY2ZjNTRjYmUifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/65" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598960000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IjlaZko4NkpMVG1WRHp2YWE2NzE0SGc9PSIsInZhbHVlIjoiU2VsKytTMVwvWGVrNTFEVlkxVzZyK0xaWUNqMmczdGFTTE1RXC9mV25JU0JNTHFMT0ZWczhpeEVLbFhNc280K29RUklPT0p2S3BzanNocXZRVm50ODZzdz09IiwibWFjIjoiOTM1ZDE5NjlhYWI5MjdmMzU0N2NjMDFlYzY4OTIwMjg5NWYzZmFlYmZjYjU2NmE5MjY0MzIyNGFjNTNmYTVkMiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598918000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkR2OFJRTHhiZjVNZHNUcWQ4OGdHaVE9PSIsInZhbHVlIjoiVW1NVGdDdUgwRmRjamJ1aGJ3cUdnOTZzMGNaQWN5dmdhXC9yVmZycERcL1FSUXFNUm1xSVRnZDkwcGlzcHBDMXBEeWNvRlY5dTg2dzllR0xrUlZ5YnZaZz09IiwibWFjIjoiODY1YzUzN2NmYjM0OGM1OWQ3NmM4ODljMTdiMzFjNzc5OGJmNjg5M2VkMThiNWZkY2RjMGM0OTQzNmQ4MTY1NiJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFaZW5ScDJkbEFwRTVHWXhDV0FIb0E9PSIsInZhbHVlIjoiZm83MlVNUnhTSmFrNGREaDAyK3Y0MEJ2QjdwMHByQVJmaVd3SXBXOG1NMG9JWTNkSm5qZDNjODZEWUlZZFNhMG96elFJSXdTbndhbTFrU1h1cVZSNEE9PSIsIm1hYyI6IjBhYmMyMThkNTQ4MzZhNDY0MmYyOGYwMzJiODI3ZTVkNWY4YjA2ZjE1YzdjZGM3M2ViN2ZhN2JhZmNmMjFiNmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFaZW5ScDJkbEFwRTVHWXhDV0FIb0E9PSIsInZhbHVlIjoiZm83MlVNUnhTSmFrNGREaDAyK3Y0MEJ2QjdwMHByQVJmaVd3SXBXOG1NMG9JWTNkSm5qZDNjODZEWUlZZFNhMG96elFJSXdTbndhbTFrU1h1cVZSNEE9PSIsIm1hYyI6IjBhYmMyMThkNTQ4MzZhNDY0MmYyOGYwMzJiODI3ZTVkNWY4YjA2ZjE1YzdjZGM3M2ViN2ZhN2JhZmNmMjFiNmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/65" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFaZW5ScDJkbEFwRTVHWXhDV0FIb0E9PSIsInZhbHVlIjoiZm83MlVNUnhTSmFrNGREaDAyK3Y0MEJ2QjdwMHByQVJmaVd3SXBXOG1NMG9JWTNkSm5qZDNjODZEWUlZZFNhMG96elFJSXdTbndhbTFrU1h1cVZSNEE9PSIsIm1hYyI6IjBhYmMyMThkNTQ4MzZhNDY0MmYyOGYwMzJiODI3ZTVkNWY4YjA2ZjE1YzdjZGM3M2ViN2ZhN2JhZmNmMjFiNmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/65" />
+          <option name="urlPath" value="/1/galery/65" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFaZW5ScDJkbEFwRTVHWXhDV0FIb0E9PSIsInZhbHVlIjoiZm83MlVNUnhTSmFrNGREaDAyK3Y0MEJ2QjdwMHByQVJmaVd3SXBXOG1NMG9JWTNkSm5qZDNjODZEWUlZZFNhMG96elFJSXdTbndhbTFrU1h1cVZSNEE9PSIsIm1hYyI6IjBhYmMyMThkNTQ4MzZhNDY0MmYyOGYwMzJiODI3ZTVkNWY4YjA2ZjE1YzdjZGM3M2ViN2ZhN2JhZmNmMjFiNmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/62" />
+          <option name="urlPath" value="/1/galery/62" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6IkxoYzdaWkx2aUpPRDVQWERBTXdHZkE9PSIsInZhbHVlIjoidkZmSllKOWpOVWs3dUFqcHpTY09tdEJKcXE5ZE9yZXNld2pQQlwvRzh5RkFCQnRsMmg0aG52WXVyWFk5aitSVVM4XC9VNjNLOXdnR2g1Vm16UnUxTVZrQT09IiwibWFjIjoiOTY0NjZmZDU3Mjk2YWNjYjk2OTI1OWVjOTUwOWU1ZmUxODAyY2NhNjEzZTk1NjdlMDNjNDQxOWEwZjRjMjEyNCJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1471598475000" />
+                <option name="domain" value="www.shopsite.dev" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6ImFaZW5ScDJkbEFwRTVHWXhDV0FIb0E9PSIsInZhbHVlIjoiZm83MlVNUnhTSmFrNGREaDAyK3Y0MEJ2QjdwMHByQVJmaVd3SXBXOG1NMG9JWTNkSm5qZDNjODZEWUlZZFNhMG96elFJSXdTbndhbTFrU1h1cVZSNEE9PSIsIm1hYyI6IjBhYmMyMThkNTQ4MzZhNDY0MmYyOGYwMzJiODI3ZTVkNWY4YjA2ZjE1YzdjZGM3M2ViN2ZhN2JhZmNmMjFiNmIifQ%3D%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://www.shopsite.dev/1/galery/62" />
+          <option name="urlPath" value="/1/galery/62" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Flats, Women _ Shipped Free at Zappos.html">
+    <configuration default="false" name="Flats, Women _ Shipped Free at Zappos.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shopsite/resources/views/tag/Flats, Women _ Shipped Free at Zappos.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Flats, Women _ Shipped Free at Zappos.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Flats, Women _ Shipped Free at Zappos.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="881af460-9533-44ab-a0fb-5ac287755282" name="Default" comment="" />
+      <created>1470398918545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470398918545</updated>
+      <workItem from="1470398919951" duration="4203000" />
+      <workItem from="1470637220300" duration="41324000" />
+      <workItem from="1470816296700" duration="43524000" />
+      <workItem from="1470998717079" duration="60509000" />
+      <workItem from="1471358882141" duration="7748000" />
+      <workItem from="1471421507487" duration="24332000" />
+      <workItem from="1471590409012" duration="87812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="269452000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.51285344" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49395972" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.48714653" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/assets/css/selectpiker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="81" column="5" selection-start-line="80" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/download.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_11_120327_create_category_tag_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_18_102651_create_product_tag_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1471519028584" expanded="true" signature="1536:2521" ph="..." />
+            <marker date="1471519028584" expanded="true" signature="1655:2147" ph="..." />
+            <marker date="1471519028584" expanded="true" signature="1795:2101" ph="..." />
+            <marker date="1471519028584" expanded="true" signature="2285:2432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tag/edit.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Tag/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#44#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="15" selection-start-column="10" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/galery/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2954">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding>
+            <marker date="1471591631748" expanded="true" signature="4823:4835" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="4953:5013" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="5299:5380" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="6241:6447" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="6789:6817" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="7091:7103" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="7229:7289" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="7591:7672" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="8573:8764" ph="..." />
+            <marker date="1471591631748" expanded="true" signature="8573:8783" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <marker date="1471418212135" expanded="true" signature="4704:5570" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tag/Flats, Women _ Shipped Free at Zappos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="5353" column="9" selection-start-line="5353" selection-start-column="9" selection-end-line="5353" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tag/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/application.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="206" column="9" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/subcat/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <marker date="1471863673044" expanded="true" signature="3641:3692" ph="{...}" />
+            <marker date="1471863673044" expanded="true" signature="5625:6079" ph="..." />
+            <marker date="1471863673044" expanded="true" signature="5647:6078" ph="..." />
+            <marker date="1471863673044" expanded="true" signature="5753:6033" ph="..." />
+            <marker date="1471863673044" expanded="true" signature="5776:5843" ph="..." />
+            <marker date="1471863673044" expanded="true" signature="5866:5933" ph="..." />
+            <marker date="1471863673044" expanded="true" signature="5956:6023" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/products/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+          <folding>
+            <marker date="1471532123110" expanded="true" signature="10607:10608" ph="{...}" />
+            <marker date="1471532123110" expanded="true" signature="10691:10817" ph="{...}" />
+            <marker date="1471532123110" expanded="true" signature="15583:16266" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Subcategory/SubcategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Galery/GaleryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Product_sizeTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Product_colorTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ImagesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/countriesTableSeedere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3723">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CountriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ColorsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/Category_tagTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoiesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/TagsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/SubcategoriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/SizesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Subcategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="146" column="48" selection-start-line="146" selection-start-column="48" selection-end-line="146" selection-end-column="48" />
+          <folding>
+            <element signature="e#47#83#0#PHP" expanded="true" />
+            <element signature="e#8096#8165#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Search/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="e#47#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/51950.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/90945.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/search/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="324" selection-end-column="45" />
+          <folding>
+            <marker date="1472110922532" expanded="true" signature="24677:24691" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
