@@ -24,15 +24,18 @@
                     <div class="main-content">
                         <div class="products-grid">
                             @foreach($products as $product)
-                                <div class="col-md-4 product simpleCart_shelfItem text-center">
+                                <div class="col-md-3 product simpleCart_shelfItem text-center">
+                                    <button  data-id="{{ $product->id  }}" class="delete_product" href="/product/delete">delete </button>
+
                                     <a href="/product/{{$product->id}}/edit" >
-                                        <img src="{{$product->image->url}} " style="width: 350px; height: 500px" alt="" /></a>
+                                        <img src="{{$product->image->url}} " style="width: 250px; height: 350px" alt="" /></a>
                                     <div class="mask">
                                         <a href="/product/{{$product->id}}/edit">Quick View</a>
                                     </div>
                                     <a href="/product/{{$product->id}}/edit">Sed ut perspiciatis</a>
                                     <p><a class="item_add" href="#"><i></i> <span class="item_price">{{$product->price}}</span></a></p>
                                 </div>
+
                             @endforeach
 
                         </div>
@@ -85,5 +88,33 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
+            $(document).on('click', '.delete_product', function (event) {
+                event.preventDefault();
+              var id = $(this).data("id") ;
+                $.ajax({
+                    method: 'DELETE',
+                    url: "/product/" + id,
 
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+
+                    success: function(response){
+                        if(response.success) {
+                        location.reload();
+                        }
+                        else{
+                            alert("it is not a your product");
+                        }
+
+
+
+                    }
+                });
+            });
+
+        })
+            </script>
     @endsection

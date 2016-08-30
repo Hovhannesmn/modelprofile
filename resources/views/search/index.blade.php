@@ -290,6 +290,7 @@
                                 </div>
                                 <a class="cbp-vm-icon cbp-vm-add item_add" href="#">Add to cart</a>
                             </li>
+
                         @endforeach
                     </ul>
                 </div>

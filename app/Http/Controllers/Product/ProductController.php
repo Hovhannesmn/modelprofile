@@ -307,6 +307,19 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user_produjcts = Auth::user()->product;
+        foreach ($user_produjcts as $item) {
+            if ($item->id == $id) {
+                Product::destroy($id);
+                return Response::json(array(
+                    'success' => true,
+
+                ));
+            }
+        }
+        return Response::json(array(
+            'success' => false,
+
+        ));
     }
 }
