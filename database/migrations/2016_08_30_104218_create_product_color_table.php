@@ -13,8 +13,14 @@ class CreateProductColorTable extends Migration
     public function up()
     {
         Schema::create('product_color', function (Blueprint $table) {
-            $table->integer('product_id');
+            $table->engine = 'InnoDB';
+            $table->integer('product_id')->unsigned()->index();
             $table->integer('color_id');
+
+            $table->foreign('product_id')->references('id')->on('products')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+            
         });
     }
 

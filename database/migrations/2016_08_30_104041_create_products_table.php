@@ -13,7 +13,7 @@ class CreateProductsTable extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned()->index();
             $table->integer('origin_id');
             $table->integer('subcat_id');
             $table->integer('user_id');
@@ -24,6 +24,8 @@ class CreateProductsTable extends Migration
             $table->text('description');
             $table->timestamps();
         });
+
+
     }
 
     /**

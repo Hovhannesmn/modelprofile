@@ -13,8 +13,15 @@ class CreateProductSizeTable extends Migration
     public function up()
     {
         Schema::create('product_size', function (Blueprint $table) {
-            $table->integer('product_id');
-            $table->integer('size_id');
+            $table->engine = 'InnoDB';
+
+            $table->integer('product_id')->unsigned()->index();
+            $table->integer('size_id')->unsigned();
+
+            $table->foreign('product_id')->references('id')->on('products')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
+            
         });
     }
 

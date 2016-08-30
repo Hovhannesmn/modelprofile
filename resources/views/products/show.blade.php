@@ -2,27 +2,61 @@
 
 @section('content')
     {{--{{dd($product->country)}}--}}
-{{--<style>--}}
-    {{--.opt-hover:hover {--}}
-        {{--background-color: #2ca02c !important;--}}
-    {{--}--}}
-    {{--</style>--}}
+<style>
+    .buy-now-btn {
+        position: relative;
+        line-height: 42px;
+        border: 1px solid #fd9729;
+        color: #fff;
+        background-color: #fd9729;
+        padding: 0 35px;
+        margin: 0 10px 5px 0;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 44px;
+        height: 44px;
+        border-radius: 3px;
+        font-size: 18px;
+        text-decoration: none;
+
+    }
+    .add-cart-btn{
+        position: relative;
+        line-height: 42px;
+        border: 1px solid  #ff5400;
+        color: #fff;
+        background-color:  #ff5400;
+        padding: 0 35px;
+        margin: 0 10px 5px 0;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 44px;
+        height: 44px;
+        border-radius: 3px;
+        font-size: 18px;
+
+    }
+    a:hover, a:focus {
+        /*color: #23527c;*/
+        text-decoration: none;
+    }
+</style>
     <div class="container">
     <div class="products-page">
         <!---728x90--->
         <div class="products">
 
 
-            <div class="tags">
-                <h4 class="tag_head">Tags Widget</h4>
-                <ul class="tags_links">
+                <div class="tags">
+                    <h4 class="tag_head">Tags Widget</h4>
+                    <ul class="tags_links">
 
-                    @foreach(App\Model\Tag::select('id', 'name')->get() as $tag)
-                        <li><a href="/tag/{{$tag->id}}">{{$tag->name}}</a></li>
-                    @endforeach
-                </ul>
+                        @foreach(App\Model\Tag::select('id', 'name')->get() as $tag)
+                            <li><a href="/tag/{{$tag->id}}">{{$tag->name}}</a></li>
+                        @endforeach
+                    </ul>
 
-            </div>
+                </div>
 
         </div>
             <div class="new-product">
@@ -92,16 +126,30 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="purchase">
-                    <a href="#">Purchase Now</a>
-                    <div class="social-icons">
-                        <ul>
-                            <li><a class="facebook1" href="#"></a></li>
-                            <li><a class="twitter1" href="#"></a></li>
-                            <li><a class="googleplus1" href="#"></a></li>
-                        </ul>
-                    </div>
+                    {{--<a href="#">Purchase Now</a>--}}
+                    {{--<div class="social-icons">--}}
+                        {{--<ul>--}}
+                            {{--<li><a class="facebook1" href="#"></a></li>--}}
+                            {{--<li><a class="twitter1" href="#"></a></li>--}}
+                            {{--<li><a class="googleplus1" href="#"></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</div>--}}
+                </div>
+
+
+                <div class="product-action-block" id="j-product-action-block">
+
+                    <span class="product-action-main">
+                    <a href="" class="buy-now-btn" id="j-buy-now-btn" data-spm-anchor-id="2114.10010108.1000016.9" data-widget-cid="widget-15">Buy Now</a>
+                        <a href="javascript:;" id="j-add-cart-btn" class="add-cart-btn"  data-widget-cid="widget-42">Add to Cart</a>
+                    </span>
+                    <span class="add-wishlist-action">
+
+                    </span>
                     <div class="clearfix"></div>
                 </div>
+
+
             {{ Html::script('assets/js/jquery/imagezoom.js') }}
 
             <!-- FlexSlider -->

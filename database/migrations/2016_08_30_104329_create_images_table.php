@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateImageTable extends Migration
+class CreateImagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,11 +14,15 @@ class CreateImageTable extends Migration
     {
         Schema::create('images', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('product_id');
+            $table->integer('product_id')->unsigned()->index();
             $table->integer('user_id');
             $table->boolean('is_general')->default(0);
             $table->string('url');
             $table->timestamps();
+
+            $table->foreign('product_id')->references('id')->on('products')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
         });
     }
 

@@ -266,7 +266,7 @@
                             },
 
                             success: function(response){
-//                                location.reload();
+                                location.reload();
 
 
 

@@ -1,1 +1,83 @@
 
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateProductsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('products', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('origin_id');
+            $table->integer('subcat_id')->unsigned();
+            $table->integer('user_id');
+            $table->integer('producted_id');
+            $table->integer('price');
+            $table->string('name');
+            $table->string('slug');
+            $table->text('description');
+            $table->timestamps();
+            $table->foreign('subcat_id')->references('id')->on('subcategories');
+
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('products', function (Blueprint $table){
+            $table->dropForeign('posts_subcat_id_foreign');
+        });
+    }
+}
+
+
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateSubCategoriesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('subcategories', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('category_id')->unsigned();
+            $table->foreign('category_id')->references('id')->on('categories');
+            $table->string('name');
+            $table->string('slug');
+            $table->timestamps();
+
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('subcategories', function (Blueprint $table){
+            $table->dropForeign('posts_category_id_foreign');
+        });
+
+    }
+}
