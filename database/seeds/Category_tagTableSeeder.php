@@ -14,7 +14,7 @@ class Category_tagTableSeeder extends Seeder
        for ($i = 1; $i <= 19; $i++) {
             \DB::table('product_tag')->insert([
 
-                'tag_id' => $i,
+                'tag_id' => rand(1, 4),
                 'product_id' => $i,
 
             ]);

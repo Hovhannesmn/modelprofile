@@ -47,10 +47,9 @@ class SearchController extends Controller
             $colors =  (!empty($data['color'])  ? $data['color'] : '');
             $tags  = (!empty($data['tag'])  ? $data['tag'] : '');
             $prices = (!empty($data['price'])  ? $data['price'] : '');
+            $perpage = (!empty($data['perpage'])  ? $data['perpage'] : 3);
             $prices = explode("-", $prices);
-            $perpage = $request->input('perpage');
             if ($request->ajax() || $request->wantsJson()) {
-
 
                 $products= Product::select('products.name', 'products.id','products.description','products.price')->ofSubcat($subcat_name, $request)->
                             ofTag($tags, $request)->
@@ -61,7 +60,7 @@ class SearchController extends Controller
                           groupBy('products.id')->
 //                        toSql();
 //                        get();
-                        orderBy('id', 'desc')->paginate(5);
+                        orderBy('id', 'desc')->paginate($perpage);
 //                $products = $products1->toArray();
 
 
@@ -83,7 +82,7 @@ class SearchController extends Controller
                 ofMade_in($madein, $request)->
                 groupBy('products.id')->
 //                        toSql();
-                paginate(5);
+                paginate($perpage);
 
 
 

@@ -29,7 +29,7 @@
                     padding-left: 10px;
                     font-size: 12px;
                     padding-left: 25px;
-                    background: url(http://www.zappos.com/search/imgs/tmp-nv-checkbox.20160817111830.png) no-repeat 10px 1px;
+                    background: url(assets/images/checkbox.png) no-repeat 10px 1px;
                 }
 
                 .naviCenter{
@@ -58,7 +58,7 @@
                     height: 13px;
                     margin: 2px 7px 0 0;
                     float: left;
-                    background-image: url(http://www.zappos.com/search/imgs/spSearch.20160817111830.png) !important;
+                    background-image: url(assets/images/search.png) !important;
                     background-repeat: no-repeat;
                 }
                 .symbolic{
@@ -233,11 +233,12 @@
                         {{--<li><a href="#">2</a></li>--}}
                         {{--{{dd($products->count())}}--}}
                         @for($i = 1; $i<= $products->lastPage(); $i++)
+
                             @if($i == $products->currentPage())
 
-                                <li class="active"><a href="{{$products->url($i)}}&perpage={{$perpage}}">{{$i}}</a></li>
+                                <li class="active"><a href="{{$products->url($i)}}&perpage={{$perpage}}" class="pege">{{$i}}</a></li>
                             @else
-                                <li><a href="{{$products->url($i)}}&perpage={{$perpage}}">{{$i}}</a></li>
+                                <li><a href="{{$products->url($i)}}&perpage={{$perpage}}" class="page">{{$i}}</a></li>
                             @endif
                         @endfor
                     </ul>
@@ -312,23 +313,30 @@
             tag ='tag[]=';
             color='color[]=';
         $('#perpage').on('change', function() {
-            var url_search = `/search?${tag}&made_in=${origin}&subcat=${subcat}&${size}&${color}`
-            var url = "{{$products->url($products->currentPage())}}";
-
+            var url_search = `/search?${tag}&made_in=${origin}&subcat=${subcat}&${size}&${color}&price=${price}`;
+            alert(this.value);
             switch (this.value) {
                 case '1':
-                    url = url + '&perpage=3';
+                    url_search = url_search + '&perpage=3';
                     break;
                 case '2':
-                    url = url + '&perpage=6';
+                    url_search = url_search + '&perpage=6';
+                        alert(2);
                     break;
                 case '3':
-                    url = url + '&perpage=9';
+                    url_search = url_search + '&perpage=9';
                     break;
             }
-            window.location.href =  url;
+            window.history.pushState("", "", url_search);
+
+            sendRequest(url_search);
+
         });
 
+            $(document).on("click", ".page",  function (event) {
+                event.preventDefault();
+
+            });
 
 
             $(document).on("click", ".country",  function (event) {
@@ -386,10 +394,10 @@
                 if($(this).data("statement") == "selected"){
                     $(this).data("statement", "");
                     $(this).css('background-position', '10px 2px')
-                    var url_search = `/search?${tag}&made_in=${origin}&subcat=${subcat}&${size}&${color}&price=${price}`;
                     price = '';
+                    var url_search = `/search?${tag}&made_in=${origin}&subcat=${subcat}&${size}&${color}&price=${price}`;
                     window.history.pushState("", "", url_search);
-//                    sendRequest(url_search);
+                    sendRequest(url_search);
 
                 }else{
                     $(this).closest(".searching").find(".price").data("statement", "");
@@ -657,7 +665,6 @@
             } )
 
         });
-
     </script>
 
 @endsection
