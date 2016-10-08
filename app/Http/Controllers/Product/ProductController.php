@@ -6,6 +6,7 @@ use App\Model\Category;
 use App\Model\Country;
 use App\Model\Image;
 use App\Model\Product;
+use App\Http\Controllers\Galery\GaleryController;
 use App\Model\Size;
 use App\Model\Subcategory;
 use App\Model\Tag;
