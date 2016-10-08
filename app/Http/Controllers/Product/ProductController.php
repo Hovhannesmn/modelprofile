@@ -25,7 +25,7 @@ class ProductController extends Controller
      */
     public function __construct()
     {
-
+//nope
     }
 
     public function index()
